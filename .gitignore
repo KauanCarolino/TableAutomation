@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# Migrations
+TableAutomation/**/__pycache__/
+TableAutomation/**/migrations/
+tables/**/__pycache__/
+tables/**/migrations/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+venv/
+ENV/
+.env.*
+
+# Others
+*.swp
+*.swo
